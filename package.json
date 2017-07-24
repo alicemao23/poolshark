@@ -9,12 +9,12 @@
   "author": "muy caliente",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
     "agenda": "^0.9.1",
     "cheerio": "^1.0.0-rc.2",
     "config": "^1.26.1",
+    "express": "^4.15.3",
     "express-logger": "0.0.3",
-    "mongoose": "^4.11.2",
+    "mongoose": "^4.11.4",
     "request": "^2.81.0"
   }
 }
