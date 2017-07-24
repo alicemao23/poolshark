@@ -7,6 +7,10 @@ const app = require('express')(),
 //	 dbConfig = config.get('Dev.dbConfig')
      PORT = process.env.PORT || 8080
 
+
+Pool = require('./models/Pool').model;
+
+
 mongoose.connect('mongodb://localhost/data/db/')
 mongoose.Promise = global.Promise
 
