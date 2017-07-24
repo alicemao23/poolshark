@@ -1,0 +1,20 @@
+{
+  "name": "poolshark",
+  "version": "1.0.0",
+  "description": "helping sharks find pools since '98",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "muy caliente",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "agenda": "^0.9.1",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^1.26.1",
+    "express-logger": "0.0.3",
+    "mongoose": "^4.11.2",
+    "request": "^2.81.0"
+  }
+}
