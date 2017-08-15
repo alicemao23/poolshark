@@ -37,6 +37,5 @@ function getGeoInfo(data){
 function writeToFile(data){
     let fields = ["Location","Address","Phone","Open Date","Close Date","lat","lng"]; 
     let result = json2csv({data: data, fields: fields});
-    let writeStream = fs.createWriteStream('./finalpool.csv');
-    writeStream.write(result);
+    fs.writeFile('./finalpool.csv', result);
 }
