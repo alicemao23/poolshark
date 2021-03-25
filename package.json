@@ -17,7 +17,7 @@
     "express": "^4.15.3",
     "express-logger": "0.0.3",
     "json2csv": "^3.11.1",
-    "mongoose": "^4.11.4",
+    "mongoose": "^5.12.2",
     "request": "^2.81.0"
   }
 }
